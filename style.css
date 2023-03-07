@@ -1,0 +1,151 @@
+header {
+    /* background-color:rgb(228, 219, 219); */
+    padding: 20px 0;
+  }
+  /* .shoe-collection{
+    height: 700px;
+    width: 500px;
+    float: right;
+    background-color: rgb(216, 15, 15);
+    border-radius: 350px/ 0px,0px,0px,750px;
+  } */
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .ultimate{
+    font-size: xx-large;
+    font-weight: bold;
+
+  }
+  #fix{
+    color:orangered;
+
+  }
+  #lorem{
+    font-size: large;
+  }
+  .shoeOne{
+    float: right;
+    position: relative;
+    bottom:500px;
+    right: 280px;
+  }
+  #button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+  }
+  /* #collection{
+   text-align: center; */
+  
+  .puma{
+   display: flex;
+   border: solid black;
+
+  }
+  .nike{
+    display: flex;
+    border: solid black;
+  }
+  .adidas{
+    display: flex;
+    border: solid black;
+  }
+  .collection{
+    display: flex;
+  }
+  .product1{
+    display: flex;
+  }
+  .product2{
+    display: flex;
+  }
+  #styleImage{
+    transform: rotate(-30deg);
+  }
+  .btn{
+    text-align: center;
+    margin-left: 350px;
+    padding: 8px;
+    text-decoration-color: orangered;
+  }
+  .more{
+    height: 500px;
+  }
+  .feature{
+    align-items: center;
+    margin-left: 300px;
+  }
+  .product1{
+    margin-left: 200px;
+  }
+  .product2{
+    margin-left: 200px;
+  }
+#subscribe{
+  text-align: center;
+}
+#email{
+margin-left: 400px;
+}
+#submit{
+  margin-left: 10px;
+  background-color: orangered;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.Fur{
+  border: solid  #e4b0d4;
+  background-color: #e4b0d4;
+  height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.end{
+  display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 200px;
+    padding: 50px;
+    text-decoration-color: white;
+    background-color: orangered;
+    margin-top: 50px;
+}
+#new{
+  text-align: center;
+}
+.image2{
+  display: flex;
+  margin-left: 200px;
+}
+.image1{
+  display: flex;
+}
+.special{
+  display: flex;
+}
+#offer{
+  position: relative;
+  bottom: 20px;
+}
