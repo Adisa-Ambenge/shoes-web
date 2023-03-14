@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <title>shoe-web</title>
@@ -13,7 +14,7 @@
 <body>
   <div class="shoe-collection"></div>
     <header>
-        <div class="container">
+        <!-- <div class="container"> -->
           <nav>
             <ul>
                 <li><a href="#">Fur.</a></li>
@@ -23,14 +24,15 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
-          <div class="login">
-            <!-- <li><a href="#">Login</a></li>
-            <input type="button" placeholder="sign up">
-            <a class="dropdown-item" rel="noopener" target="_blank" href="#">EN</a> -->
-
-            
-          </div>
-        </div>
+          <nav class="login">
+            <ul>
+             <li>Login</li>
+             <button>Signup</button>
+            <span><label for="EN">EN</label></span>
+            <span> <select name="EN"></select></span>
+           </ul>
+            </nav>
+      
     </header>
         <div>
       <div class="ultimate">
@@ -158,8 +160,8 @@
         <span><s>5 Days</s> 2 Days left</span>
         <p>Lorem ipsum dolor sit amet consectetur,<br>Etlam commodo ultrices non grovida<br>
           quam nu nullam,Vestibulum</p>
-         <p>Only For,<span> $50.99</span></p>
-         <button>BUY NOW</button> <button>ADD TO CART</button>
+         <p>Only For,<span id="cost"> $50.99</span></p>
+         <button id="buy">BUY NOW</button> <button id="add">ADD TO CART</button>
       </div>
       </div>
 
@@ -172,8 +174,8 @@
         <span><s>5 Days</s> 2 Days left</span>
         <p>Lorem ipsum dolor sit amet consectetur,<br>Etlam commodo ultrices non grovida<br>
           quam nu nullam,Vestibulum</p>
-          <p>Only For,<span> $50.99</span></p>
-          <button>BUY NOW</button> <button>ADD TO CART</button>
+          <p>Only For,<span id="cost"> $50.99</span></p>
+          <button id="buy">BUY NOW</button> <button id="add">ADD TO CART</button>
       </div>
       </div>
 
@@ -181,17 +183,16 @@
 
   
       <div>
-        <span>Testimonials</span>
+        <span><h3 id="testimony">Testimonials</h3></span>
         <h1>What People Say<br>About Us.</h1>
       <span> <input type="radio"><input type="radio"><input type="radio"><input type="radio"> </span>
       </div>
-      <div>
-        <h2></h2>
+      <div class="profile">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+           Ratione accusamus inventore ducimus iure aut,<br> eius id ad accusantium eum et impedit
+           consequuntur<br> eveniet veritatis maiores consectetur quam. Nobis, sapiente amet.</p>
       </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur.Venenatis gravida<br>morbi pharetra mi vel
-          nam duis sociis.Quis purus nibh nisl sa<br>gittis dui semper sagittis dolor fellis.</p>
-      </div>
+    
       </div>
       <div class="Fur">
         <h3 id="subscribe">Subscribe to get information,latest news and other<br>interesting offers
@@ -199,7 +200,7 @@
         <input id="email" type="email" placeholder="Enter your email address"> <input id="submit" type="submit">
       </div>
       <footer class="end">
-        <div>
+        <div class="contact">
           <span>Fur</span>
           <p>Lorem ipsum dolor sit amet consectetur<br>Fuga natus nostrum excepturi eligendi.<br>
              Ad accusantium dolores sint itaque tenetur </p>
@@ -223,7 +224,128 @@
         <li>Airlines</li>  
         <li>Low Fare Trips</li>   
       </div>
-    
+      <div class="media">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <h3>Discover Our App</h3>
+        </div>
       </footer>
+      <br><br><br>
+  <header>
+  <nav>
+    <ul>
+    <li>Fur.</li>
+     <li>Home</li>
+    <li>Trending</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    </ul>
+  </nav>
+
+  <nav class="login">
+  <ul>
+   <li>Login</li>
+   <button>Signup</button>
+  <span><label for="EN">EN</label></span>
+  <span> <select name="EN"></select></span>
+ </ul>
+  </nav>
+</header>
+<div>
+  <br><br><br>
+  <p><h4>Home &nbsp;&nbsp;> &nbsp;&nbsp;Mens&nbsp;&nbsp; > &nbsp;&nbsp;Nike&nbsp;&nbsp; > &nbsp;&nbsp;Shoes</h4></p>
+</div>
+
+<div>
+  <img class="nikeyy" src="/images/nikeyy.png">
+</div>
+<div>
+  <img id="styleImage2" src="/images/blackish.png">
+  <img id="styleImage3" src="/images/white.png">
+  <img id="styleImage2" src="/images/blackish.png">
+</div>
+<div class="text">
+  <span id="minimal">MINIMAL MENS COLLECTION</span>
+  <h3>Nike Black Color Shoes</h3>
+ <p>$60<span id="percent">(20% OFF)</span></p>40.99</span>
+ <p>SELECTED SIZE <span id="size">Size Chart </span></p>
+ <p><h2>S &nbsp;&nbsp;M&nbsp;&nbsp;L&nbsp;&nbsp;
+  XL&nbsp;&nbsp;XXL
+ </h2></p>
+ <div class="buttons"><button id="order">ORDER NOW</button><button id="cart">ADD TO CART</button></div>
+ <p><h4>PRODUCT DETAILS</h4></p>
+ <p>Black Color Shoes,Bottom Color Brown</p>
+ <h4>MATERIAL & CARE</h4>
+ <li>Leather</li>
+ <li>Hand-wash</li>
+ <h4>SOLD BY</h4>
+ <p> 90% Positive Feedback</p>
+ <p>12 Products</p>
+ <p>All Products come with 3 months Warrantly</p>
+</div>
+
+<div class="product3">
+
+  <div id="adidas1">
+  <img id="styleImage1"src="/images/adidas.png">
+  <h1>Adidas</h1>
+  <p>Mens running shoes</p>
+  <span>$50.99</span>
+  </div>
+  <div id="nike1">
+    <img id="styleImage1" src="/images/nike.png">
+    <h1>Nike</h1>
+    <p>Mens running shoes</p>
+    <span>$50.99</span>
+    </div>
+    <div id="puma1">
+      <img id="styleImage1" src="/images/puma.png">
+      <h1>Puma</h1>
+      <p>Mens running shoes</p>
+      <span>$50.99</span>
+      </div>
+      <div id="fila1">
+        <img id="styleImage1" src="/images/fila.png">
+        <h1>Fila</h1>
+        <p>Mens running shoes</p>
+        <span>$50.99</span>
+        </div>
+
+  </div>
+  <footer class="end2">
+      <div class="contact">
+        <li>Fur</li>
+        <p>Lorem ipsum dolor sit amet consectetur<br>Fuga natus nostrum excepturi eligendi.<br>
+           Ad accusantium dolores sint itaque tenetur </p>
+      </div>
+      <div class="abt">
+        <li>Company</li>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Mobile</li>
+    </div>
+    
+    <div class="contact">
+      <li>Contact</li> 
+      <li>Help/FAQS</li>  
+      <li>Press</li>  
+      <li>Affiliates</li>   
+    </div>
+    <div class="contact">
+      <li>More</li> 
+      <li>Airline Fees</li>  
+      <li>Airlines</li>  
+      <li>Low Fare Trips</li>   
+    </div>
+    <div class="media">
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <h3>Discover Our App</h3>
+    </div>
+    </footer>
+
+
 </body>
 </html>

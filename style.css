@@ -1,15 +1,8 @@
-header {
-    /* background-color:rgb(228, 219, 219); */
-    padding: 20px 0;
-  }
-  /* .shoe-collection{
-    height: 700px;
-    width: 500px;
-    float: right;
-    background-color: rgb(216, 15, 15);
-    border-radius: 350px/ 0px,0px,0px,750px;
-  } */
 
+  .login{
+    margin-left: 1000px;
+    justify-content: space-between;
+}
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,10 +28,11 @@ header {
   .ultimate{
     font-size: xx-large;
     font-weight: bold;
-
+    background-image: url(/images/back1.png);
+  
   }
   #fix{
-    color:orangered;
+    color:#F25C5C;
 
   }
   #lorem{
@@ -53,10 +47,9 @@ header {
   #button{
     padding: 10px;
     border-radius: 5px;
-    background-color: orangered;
+    background-color: #F25C5C;
   }
-  /* #collection{
-   text-align: center; */
+
   
   .puma{
    display: flex;
@@ -87,7 +80,7 @@ header {
     text-align: center;
     margin-left: 350px;
     padding: 8px;
-    text-decoration-color: orangered;
+    background-color: #F25C5C;
   }
   .more{
     height: 500px;
@@ -110,7 +103,7 @@ margin-left: 400px;
 }
 #submit{
   margin-left: 10px;
-  background-color: orangered;
+  background-color: #F25C5C;
   padding: 5px 20px;
   border-radius: 5px;
 }
@@ -129,7 +122,7 @@ margin-left: 400px;
     height: 200px;
     padding: 50px;
     text-decoration-color: white;
-    background-color: orangered;
+    background-color: #F25C5C;
     margin-top: 50px;
 }
 #new{
@@ -148,4 +141,151 @@ margin-left: 400px;
 #offer{
   position: relative;
   bottom: 20px;
+}
+#cost{
+  color: #F25C5C;
+}
+#buy{
+  background-color: #F25C5C;
+}
+#add{
+  color: #F25C5C;
+}
+#testimony{
+  color: #F25C5C;
+}
+.profile{
+  margin-left: 500px;
+  position: relative;
+  bottom: 100px;
+  height: 200px;
+  background-color:whitesmoke;
+  width: 30%;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+/* trending.html */
+header{
+  display: flex;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.login{
+  margin-left: 600px;
+}
+.home{
+  gap: 20px;
+}
+.text{
+  margin-left: 500px;
+  position: relative;
+  bottom: 600px;
+}
+#styleImage2{
+  width: 10%;
+}
+#styleImage3{
+  width: 7%;
+}
+#styleImage1{
+  transform: rotate(-30deg);
+  /* width: 20%; */
+}
+
+.product3{
+  /* display: flex; */
+  margin-left: 50px;
+  position: relative;
+  bottom: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+
+}
+@media only screen and (max-width:600px){
+  .product3{
+   grid-template-columns: repeat(1,1fr);
+  }
+}
+
+
+
+.end2{
+  display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 200px;
+    padding: 50px;
+    text-decoration-color: white;
+    background-color:#F25C5C;
+    margin-top: 50px;
+    position: relative;
+    bottom: 300px;
+}
+#similar{
+  padding-left: 50px;
+}
+#minimal{
+  color: #F25C5C
+}
+#order{
+  color: #F25C5C;
+  padding: 10px;
+}
+#cart{
+  background-color: #F25C5C;
+  padding: 10px;
+}
+.buttons{
+  gap: 20px;
+}
+#percent{
+  color: #F25C5C;
+}
+#size{
+  color: #F25C5C;
+  padding-left: 30px;
+}
+#adidas1{
+  /* position: relative;
+  bottom: 80px; */
+  border: solid whitesmoke;
+}
+#puma1{
+  border:solid whitesmoke;
+}
+#fila1{
+  border: solid whitesmoke;
+}
+#nike1{
+  border: solid whitesmoke;
+}
+.abt{
+  color: white;
+}
+.contact{
+  color: white;
+}
+.media{
+  color: white;
+}
+@media only screen and (max-width:300px){
+  .body{
+      color:rgb(24, 5, 5);
+      padding: 0px;
+      position: absolute;
+      display: block;
+      size-adjust: auto;
+  }
 }
