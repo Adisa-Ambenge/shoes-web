@@ -6,9 +6,22 @@
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: flex-start;
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+  }
+  .Quick{
+    background-image: url(/images/back1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+  background-size:100%;
+  /* width: 280%; */
     
   }
   nav ul {
@@ -26,9 +39,10 @@
     font-weight: bold;
   }
   .ultimate{
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
-    background-image: url(/images/back1.png);
+    /* margin-bottom: 500px; */
+    /* background-image: url(/images/back1.png); */
   
   }
   #fix{
@@ -38,11 +52,14 @@
   #lorem{
     font-size: large;
   }
-  .shoeOne{
-    float: right;
+  #shoeOne{
+    /* float: right; */
+    /* width: 20%;  */
+    
+    /* margin-left: 400px; */
     position: relative;
-    bottom:500px;
-    right: 280px;
+    right: 20%;
+    /* bottom: 500px; */
   }
   #button{
     padding: 10px;
@@ -213,9 +230,10 @@ ul{
 
 
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:700px){
   .product3{
    grid-template-columns: repeat(1,1fr);
+   grid-template-columns: repeat(4,1fr);
   }
 }
 
@@ -280,12 +298,116 @@ ul{
 .media{
   color: white;
 }
-@media only screen and (max-width:300px){
-  .body{
-      color:rgb(24, 5, 5);
-      padding: 0px;
-      position: absolute;
-      display: block;
-      size-adjust: auto;
+
+#trend{
+  color: blue;
+}
+ #shoey{
+  width: 25%;
+ }
+.approach{
+  display: flex;
+  position: relative;
+  left: 200px;
+  
+}
+.vision{
+  display: flex;
+  position: relative;
+  left: 200px;
+}
+.about{
+  display: flex;
+  position: relative;
+  left: 200px;
+}
+#pair1{
+  width: 30%;
+ 
+} 
+
+@media only screen and(min-width:576),(max-width:1200px){
+  .product3{
+   grid-template-columns: repeat(1,1fr);
+   grid-template-columns: repeat(4,1fr);
+   background-color:blue;
   }
+  .container{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+  }
+  body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  header{
+    flex-direction: row;
+  }
+  .footer{
+    height: 40%;
+    width: 100%;
+  }
+  .text{
+    width: 50%;
+
+  }
+  #styleImage{
+    /* height:100px; */
+    width:100%;
+    background-size:100%;
+    background-position: center;
+
+  }
+  #styleImage1{
+    /* height:100px; */
+    width:(100%)/4;
+    background-size:100%;
+    background-position: center;
+  }
+  p{
+    width: 50%;
+  }
+  
+  .contact{
+    width: 20%;
+    
+  }
+  .media{
+    width: 10%;
+  }
+  .product1{
+    width: (100)/4;
+    display: grid;
+    place-items: center;
+   margin-right: 500px;
+  }
+  .collection{
+    width: (100)/4;
+    display: grid;
+    place-items: center;
+
+  }
+  .product2{
+    width: (100)/4;
+    display: grid;
+    place-items: center;
+    margin-right: 500px;
+  }
+  .product3{
+    width: (100)/4;
+    display: grid;
+    place-items: center;
+  }
+  .vision{
+    width: 50%;
+  }
+
 }
